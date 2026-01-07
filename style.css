@@ -34,10 +34,10 @@ header{
     background: url(images/developer.png) , url(images/header_bg.png) ,#FFF8F3;
     background-position:23px 38px, bottom right  ;
     background-repeat: no-repeat;
+    width: 100%;
 }
 nav{
-    width: 71%;
-    max-width: 1140px;
+    width: 1220px; /* the width should be set **/
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -61,6 +61,8 @@ nav li, a{
     display: flex;
    /*  justify-content: space-between; */
     align-items: center;
+    max-width: 1220px; /* the width should be set **/
+    margin: 0 auto;  /* margin auto **/
     gap: 163px;
 }
 .banner-content h2{
