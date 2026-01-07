@@ -19,11 +19,14 @@ nav h2{
 .btn{
     padding: 18px 35px;
     background-color: #FD6E0A;
-    border: none;
+    border: none;  
     border-radius: 5px;
     font-weight: bold;
     font-size: 20px;
     color: #FFFFFF;
+}
+.icon{
+    margin-right: 10px;
 }
 /* main style*/
 header{
@@ -34,7 +37,7 @@ header{
 }
 nav{
     width: 71%;
-    max-height: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -89,12 +92,13 @@ nav li, a{
     font-size: 20px;
     color: #FD6E0A;
     gap: 30px;
+    background-color: #FFF8F3;
 }
 .button-div{
     display: flex;
     gap: 30px;
 }
 .banner .banner-image img{
-    max-width: 585px;
+    max-width:584px ;
     vertical-align: middle;
 }
