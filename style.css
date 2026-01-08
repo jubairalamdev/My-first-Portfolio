@@ -37,7 +37,7 @@ header{
     width: 100%;
 }
 nav{
-    width: 1220px; /* the width should be set **/
+    max-width: 1220px; /* the width should be set **/
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
